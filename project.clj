@@ -11,8 +11,6 @@
             :min-lein-version "2.0.0"
             :uberjar-name "webdev.jar"
             :main webdev.core
-            :profiles {:dev
-                       {:main webdev.core/-dev-main}
-                       }
+            :profiles {:dev {:main webdev.core/-dev-main}}
             )
 
